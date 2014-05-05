@@ -1,5 +1,5 @@
 #include <stdint.h>
-#include <stdio.h>
+#include <iostream>
 
 using namespace std;
 
@@ -12,7 +12,7 @@ struct MyStruct
 
 int main()
 {
-  printf("Number of bytes: %u\n", sizeof(MyStruct));
+  cout << "Number of bytes: " << sizeof(MyStruct) << endl;
 
   return 0;
 }

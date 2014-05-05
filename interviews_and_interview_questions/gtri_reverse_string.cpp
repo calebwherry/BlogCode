@@ -1,5 +1,5 @@
 #include <cstring>
-#include <cstdio>
+#include <iostream>
 
 using namespace std;
 
@@ -21,9 +21,9 @@ int main()
 
   char str[] = "Hello";
 
-  printf("String: %s\n", str);
+  cout << "String: " << str << endl;
   reverse(str);
-  printf("Reversed: %s\n", str);
+  cout << "Reversed: " << str << endl;
 
   return 0;
 }
